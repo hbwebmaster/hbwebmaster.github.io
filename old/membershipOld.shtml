@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+<title>Honor Board Membership - Stevens Institute of Technology</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<script type="text/javascript" src="scripts/minmax.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js" type="text/javascript"></script>
+<![endif]-->
+<!--<script src="http://www.stevens.edu/main/javascript/newwinform.js" type="text/javascript"></script>-->
+<style type="text/css">
+.style4 {
+	font-size: small;
+}
+.style5 {
+	font-weight: bold;
+}
+.style6 {
+	font-size: medium;
+}
+.style7 {
+	font-size: large;
+}
+</style>
+</head>
+<body>
+
+	<!--#include virtual="include/header.shtml" -->
+
+    <h1><strong><span class="style7">Honor Board Membership</span></strong><span class="style7"></span></h1>
+    <h2 class="style6">Becoming a Member</h2>
+    <p>
+
+	<span class="style5"><a href="https://orgsync.com/48057/forms/152047">Click here</a></span><span class="style4"> for the Application.</span>
+	<!-- <span class="style5"><a href="documents/Honor%20Board%20Application.pdf">Click here</a></span><span class="style4"> for the Application.</span> -->
+	<br><a href="documents/Signature%20Nomination%20Form.pdf"><span class="style5">Click here</span></a><span class="style4"> for the Signature Nomination Form.
+	<br>
+
+	<h1 class="style7">Current Membership</h1>
+		<div class="chart-list">
+			<h2 class="style6">Seniors</h2>
+				<ul class="style4" style="width: 175px">
+
+					<li><a href="bio_dboyle.shtml">Dylan Boyle</a></li>
+					<li><a href="bio_dfischer.shtml">Danielle Fischer</a></li>
+                    <li><a href="bio_epiper.shtml">Elena Piper</a></li>
+					<li><a href="bio_jhuber.shtml">Jeffrey Huber</a></li>
+					<!--<li><a href="bio_mhunt.shtml">Matthew Hunt</a></li> -->
+                    <!--<li><a href="bio_osarhan.shtml">Omar Sarhan</a></li>-->
+                    <li><a href="bio_sarlington.shtml">Shane Arlington</a></li>
+					<li><a href="bio_trizos.shtml">Theodore Rizos</a></li>
+                    <li><a href="bio_tromeo.shtml">Tyler Romeo</a></li>
+                    <li><a href="bio_turtubia.shtml">Tessie Urtubia</a></li>
+					<li><a href="bio_ybinyamin.shtml">Yasha Or Binyamin</a></li>
+				</ul>
+			<h2 class="style6">Juniors</h2>
+				<ul class="style4" style="width: 175px">
+                    <li><a href="bio_bmcnamara.shtml">Brian McNamara</a></li>
+					<li><a href="bio_cdissenha.shtml">Carlos Schmitt Dissenha</a></li>
+					<li><a href="bio_jscarlett.shtml">Jhustin Scarlett</a></li>
+                    <li><a href="bio_jstika.shtml">Julia Stika</a></li>
+					<li><a href="bio_jwelkie.shtml">Janelle Welkie</a></li>
+                    <li><a href="bio_mliotta.shtml">Mark Liotta</a></li>
+					<li><a href="bio_mpasquale.shtml">Michelle Pasquale</a></li>
+                    <li><a href="bio_oosman.shtml">Otis Osman</a></li>
+				</ul>
+			<h2 class="style6">Sophomores</h2>
+				<ul class="style4" style="width: 175px">
+					<li><a href="bio_efea.shtml">Emily Fea</a></li>
+					<li><a href="bio_lmengotto.shtml">Lisa Mengotto</a></li>
+                    <!--<li><a href="bio_ncafone.shtml">Noelle Cafone</a></li>-->
+					<li><a href="bio_oschreiber.shtml">Olivia Schreiber</a></li>
+                    <li><a href="bio_pbrown.shtml">Paige Brown</a></li>
+				</ul>
+			<h2 class="style6">Freshmen</h2>
+				<ul class="style4" style="width: 175px">
+					<li><a href="bio_aclark.shtml">Allyson Clark</a></li>
+					<li><a href="bio_alagasca.shtml">Alexander Lagasca</a></li>
+                    <li><a href="bio_asampath.shtml">Akshay Sampath</a></li>
+                    <li><a href="bio_gmccormack.shtml">Gabrielle McCormack</a></li>
+					<li><a href="bio_jkraszewski.shtml">Jack Kraszewski</a></li>
+					<li><a href="bio_mben-ezra.shtml">Michayla Ben-Ezra</a></li>
+					<li><a href="bio_mspirydonava.shtml">Maryia Spirydonava</a></li>
+                    <li><a href="bio_ncsapo.shtml">Nicholas Csapo</a></li>
+				</ul>
+			</div>
+			<div class="chart-list" style="width: 425px; margin-left: 0px;">
+			<h2 class="style6">Executive Board</h2>
+			<ul>
+				<span class="style4">
+					<li>Chair: Janelle Welkie</li>
+					<li>Vice Chair: Olivia Schreiber</li>
+					<li>Corresponding Secretary: Lisa Mengotto</li>
+					<li>Recording Secretary: Michayla Ben-Ezra</li>
+				</span>
+			</ul>
+			<p>
+				<span class="style4">Email: <a href="mailto:honor@stevens.edu">honor@stevens.edu</a>&nbsp;</span>
+				&nbsp;&nbsp;
+			</p>
+		</div>
+		<div class="chart-list" style="height: 64px; width: 406px;">
+			<h2 class="style6">Administrative Advisors</h2>
+			<ul><li class="style4">Dean Deborah Berkley<br/>
+			10th Floor, Howe Center&nbsp; </li><br/>
+			<ul><li class="style4">Assistant Dean Kristie Damell<br/>
+			10th Floor, Howe Center&nbsp; </li>
+			</ul>
+			<p>&nbsp;</p>
+		</div>
+            <div class="iehack"></div>
+	<div id="lower">
+		<!--#include virtual="include/copyright.shtml" -->
+    </div>
+
+	<!--#include virtual="include/footer.shtml" -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27988713-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

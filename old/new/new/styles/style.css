@@ -1,0 +1,458 @@
+/*Bootstrap Glyphicons*/
+@import url('//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
+
+/*content*/
+h7{
+	font-size: 1.8em;
+	font-weight: bold;
+	font-family: 'Montserrat', snas-serif;
+	padding-top: 1.5%;
+	text-align: center;;
+}
+h5{
+    font-size: 5em; 
+    font-weight: bold; 
+    font-family: 'Montserrat', snas-serif;
+    text-align: center;
+}
+h1{
+    font-size: 2em; 
+    font-weight: bold;
+	font-style: italic;
+    font-family: 'Montserrat', snas-serif;
+    padding-top: 2%;
+    text-align: center;
+}  
+h2{
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Montserrat', snas-serif;
+}
+.faq-label{
+	background-color: #9a989a;
+}
+.faq-label h2{
+	font-size: 1.8em;
+    font-weight: bold;
+    font-family: 'Montserrat', snas-serif;
+}
+.line-box h2{
+    font-size: 2em;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.line-box a{
+    font-size: 2em;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+h3{
+    font-weight: bold; 
+    font-family: 'Montserrat', snas-serif;
+    padding-top: 1%;
+    text-align: center;
+}
+h6{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Montserrat', snas-serif;
+}
+h4{
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Montserrat', snas-serif;
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+p{
+    font-family: 'Montserrat', snas-serif;
+    font-size: 1.1em;
+}
+a{
+    font-family: 'Montserrat', snas-serif;
+    font-size: 1.1em;
+}
+th+th{
+    padding-left: 20px;
+}
+.line-box{
+    background-color: #A32638;
+	margin-right: 35px;
+}
+.people{
+    text-align: left;
+}
+.smaller-line-box{
+    background-color: #9a989a;
+	margin-right: 35px;
+}
+.box-container{
+    text-align: center;
+}
+.about-box{/*box*/
+    background-color: #A32638;
+    display: inline-block;
+    margin: 3%;
+    border-width: 2px;
+    border-style: solid;
+    width: 25%;
+    height: 200px;
+}
+.grid .about-box{
+    width: 200px;
+    height: 250px;
+}
+.grid .about-box h2{
+    display: none;
+}
+.report-button {
+	margin-top: 20px;
+	display: block;
+	background-color: #A32638;
+	width: 207px;
+	max-width: 207px;
+	height: 75px;
+	text-align: center;
+	color: white;
+	border: none;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	padding-top: 10px;
+	font-size: 1.5em;
+}
+.report-button:hover{
+	color: white;
+}
+.about-box{
+    vertical-align: middle;
+    transform: perspective(1px) translateZ(1);
+    box-shadow: 0 0 1px #9a989a;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+img{
+    width: 196px;
+    height: 246px;
+}
+.about-box h2{
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', snas-serif;
+
+}
+.about-box p, .about-box ul, .about-box a{
+    color: white;
+    font-family: 'Montserrat', snas-serif;
+    margin: 15px;
+    display: none;
+    font-size: 0.8em;
+}
+.grid .about-box:hover{
+    transform: translateZ(0);
+    transform: scale(1.65);
+    overflow: auto;
+}
+.grid .about-box:hover img{
+    display: none;
+}
+.grid .about-box:hover h2{
+    text-align: center;
+    display: block;
+}
+.grid .about-box:hover p, .about-box:hover ul, .about-box:hover a{
+    display: block;
+    text-align: left;
+}
+.grid h2{
+    display: none;
+}
+.about-box:hover{
+    transform: translateZ(0);
+    transform: scale(1.65);
+    overflow: auto;
+}
+.about-box:hover h2{
+    text-align: center;
+}
+.about-box:hover p, .about-box:hover ul, .about-box:hover a{
+    display: block;
+    text-align: left;
+}
+.home-box{
+    padding-bottom: 130px;
+    width: 100%;
+    background-color: white;
+    padding-left: 2%;
+    margin-bottom: 3%;
+}
+body{
+    background-color: white;
+}
+.logo{
+    text-align: center;
+	margin-top: 35px;
+}
+.info-box{
+    background-color: white;
+    width: 100%;
+    padding-left: 2%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	min-height: 250px;
+}
+.info-box p{
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.info-box-2{
+    background-color: #9a989a;
+    width: 100%;
+    padding-left: 2%;
+	min-height: 250px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.slide{
+	width: 50%;
+	display: none;
+	margin-left: 25%;
+}
+.info-box-3{
+    background-color: white;
+    width: 100%;
+    padding-left: 2%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	min-height: 250px;
+}
+.social-link{
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+.social-logo{
+	max-height: 150px;
+	max-width: 150px;
+}
+.video-box{
+    background-color: #A32638;
+    width: 100%;
+    padding-left: 2%;
+}
+.play-video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 75%;
+    height: auto;
+}
+
+/*nav menu*/
+.menu-wrapper{
+    /*position: absolute;
+    top: 20px;
+    right: 20px;
+    display: none;*/
+    margin: auto;
+    background-color: #A32638;
+    width: 33.33%;
+    -webkit-transition-duration: 400ms;
+    transition-duration: 400ms;
+}
+.menu-open-button{
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    width: 40px;
+    height: auto;
+    z-index: 1;
+}
+.menu-close-button{
+    top: 13px;
+    left: 13px;
+    width: 40px;
+    height: auto;
+}
+.menu-open-button:hover{
+    transform: scale(1.1);
+}
+.menu-close-button:hover{
+    transform: scale(1.1);
+}
+body{
+    overflow-x: hidden;
+}
+.box-wrapper {
+    -webkit-transition-duration: 400ms;
+    transition-duration: 400ms;
+}
+
+
+.box-wrapper.loading:nth-child(odd) { transform: translate(100%) }
+.box-wrapper.loading:nth-child(even) { transform: translate(-100%) }
+
+.box {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display: block;
+}
+.nav-wrapper{
+    display: block;
+    background-color: #A32638;
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.overlay{
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #9a989a;
+    opacity: 0.5;
+}
+.other-stuff{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+li{
+    display: block;
+}
+.bullet-home:before{
+    content: "\e021";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-home:hover{
+    transform: scaleY(1.1);
+}
+.bullet-about:before{
+    content: "\e101";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-about:hover{
+    transform: scaleY(1.1);
+}
+.bullet-faq:before{
+    content: "\e111";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-faq:hover{
+    transform: scaleY(1.1);
+}
+.bullet-people:before{
+    content: "\e008";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-people:hover{
+    transform: scaleY(1.1);
+}
+.bullet-report:before{
+    content: "\e105";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-report:hover{
+    transform: scaleY(1.1);
+}
+.bullet-docs:before{
+    content: "\e022";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-docs:hover{
+    transform: scaleY(1.1);
+}
+.bullet-ethics:before{
+    content: "\e118";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-ethics:hover{
+    transform: scaleY(1.1);
+}
+.bullet-chair:before{
+    content: "\e056";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-chair:hover{
+    transform: scaleY(1.1);
+}
+.bullet-faculty:before{
+    content: "\f8ff";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-faculty:hover{
+    transform: scaleY(1.1);
+}
+.bullet-apply:before{
+    content: "\270f";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-apply:hover{
+    transform: scaleY(1.1);
+}
+.menu-list{
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Montserrat', snas-serif;
+    color: white;
+    margin-top: 5%;
+}
+li a{
+    color: white;
+    font-size: 1.5em;
+}
+li a:hover{
+    color: white;
+}
+.no-box{
+    text-align: left;
+}

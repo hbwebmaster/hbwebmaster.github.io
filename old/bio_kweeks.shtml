@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Language" content="en-us">
+<title>Katie Weeks</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<script type="text/javascript" src="scripts/minmax.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<!--[if lt IE 8]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE8.js" type="text/javascript"></script>
+<![endif]-->
+<script src="http://www.stevens.edu/main/javascript/newwinform.js" type="text/javascript"></script>
+<style type="text/css">
+.style1 {
+	font-size: x-large;
+}
+</style>
+</head>
+<body lang="3DEN-US" style="3D'tab-interval:.5in'">
+<!--#include virtual="include/header.shtml" -->
+
+</html>
+<table align="center" >
+
+<tr height=200>
+<td>
+<img src="biopictures/kweeks.jpg" align="float" alt="Katie Weeks" align="bottom" height=167 width=131 hspace="0" border="0">
+</tr>
+</table>
+
+<p style="text-align: center" class="st4:37 PM 12/4/2014yle1"><FONT SIZE="5"><strong>Katie Weeks</strong></p>
+<p style="text-align: center"><FONT SIZE="3">
+Majoring in Mechanical Engineering, Biomedical Engineering Concentration </br>
+Class of 2019 </br>
+Hometown: Toms River, NJ</br>
+</br>
+Member of the Honor Board since Fall 2014</br>
+Other Activities: Track and Field</p>
+<center> <a href="membership.shtml"><span class="teaser">Return to MEMBERSHIP</span></a><span class="style4"></a></center>
+</center>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27988713-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</font>
+</body>
+
+</html>

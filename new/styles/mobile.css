@@ -1,0 +1,219 @@
+/*Bootstrap Glyphicons*/
+@import url('//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
+
+
+
+.menu-box{
+	 background-color: #A32638;
+	 margin: auto;
+         width: 95%;
+         height: 95%;
+}
+
+.menu-wrapper{
+    margin: auto;
+    background-color: #A32638;
+    width: 33.33%;
+    -webkit-transition-duration: 400ms;
+    transition-duration: 400ms;
+}
+
+.menu-open-button{
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    width: 40px;
+    height: auto;
+    z-index: 1;
+}
+.menu-mobile-button{
+    position: fixed;
+    top: 35px;
+    right: 35px;
+    width: 40px;
+    height: auto;
+    z-index: 1;
+    display: none;
+}
+.menu-close-button{
+    top: 13px;
+    left: 13px;
+    width: 40px;
+    height: auto;
+}
+.menu-open-button:hover{
+    transform: scale(1.1);
+}
+.menu-close-button:hover{
+    transform: scale(1.1);
+}
+.menu-mobile-button:hover{
+    transform: scale(1.1);
+}
+body{
+    overflow-x: hidden;
+}
+.box-wrapper {
+    -webkit-transition-duration: 400ms;
+    transition-duration: 400ms;
+}
+
+
+.box-wrapper.loading:nth-child(odd) { transform: translate(100%) }
+.box-wrapper.loading:nth-child(even) { transform: translate(-100%) }
+
+.box {
+    margin: auto;
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display: block;
+}
+.nav-wrapper{
+    display: block;
+    background-color: #A32638;
+    width: 40%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.overlay{
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #9a989a;
+    opacity: 0.5;
+}
+.other-stuff{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+li{
+    display: block;
+}
+.bullet-home:before{
+    content: "\e021";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-home:hover{
+    transform: scaleY(1.1);
+}
+.bullet-about:before{
+    content: "\e101";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-about:hover{
+    transform: scaleY(1.1);
+}
+.bullet-faq:before{
+    content: "\e111";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-faq:hover{
+    transform: scaleY(1.1);
+}
+.bullet-people:before{
+    content: "\e008";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-people:hover{
+    transform: scaleY(1.1);
+}
+.bullet-report:before{
+    content: "\e105";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-report:hover{
+    transform: scaleY(1.1);
+}
+.bullet-docs:before{
+    content: "\e022";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-docs:hover{
+    transform: scaleY(1.1);
+}
+.bullet-ethics:before{
+    content: "\e118";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-ethics:hover{
+    transform: scaleY(1.1);
+}
+.bullet-chair:before{
+    content: "\e056";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-chair:hover{
+    transform: scaleY(1.1);
+}
+.bullet-faculty:before{
+    content: "\f8ff";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-faculty:hover{
+    transform: scaleY(1.1);
+}
+.bullet-apply:before{
+    content: "\270f";
+    font-family: 'Glyphicons Halflings';
+    font-size: 2em;
+    margin-right: 2%;
+    color: white;
+}
+.bullet-apply:hover{
+    transform: scaleY(1.1);
+}
+.menu-list{
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Montserrat', snas-serif;
+    color: white;
+    margin-top: 5%;
+}
+li a{
+    color: white;
+    font-size: 1.5em;
+}
+li a:hover{
+    color: white;
+}
+.no-box{
+    text-align: left;   
+}
