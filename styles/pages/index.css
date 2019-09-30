@@ -1,5 +1,8 @@
 
-*{ box-sizing: border-box;}
+
+/* Fullscreen video CSS
+/*
+/*{ box-sizing: border-box;}
 
 body{
   margin: 0;
@@ -59,4 +62,4 @@ body{
   display: block;
   padding-bottom: 2rem;
   margin-top: 10px;
-}
+} */
