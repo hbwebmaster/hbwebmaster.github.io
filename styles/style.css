@@ -5,8 +5,8 @@
 /*content*/
 
 h5{
-    font-size: 5em; 
-    font-weight: bold; 
+    font-size: 5em;
+    font-weight: bold;
     padding-top: 55px;
     font-family: 'Montserrat', snas-serif;
     text-align: center;
@@ -33,13 +33,13 @@ ul{
 	padding-right: 3%;
 }
 h1{
-    font-size: 2em; 
+    font-size: 2em;
     font-weight: bold;
 	font-style: italic;
     font-family: 'Montserrat', sans-serif;
     padding-top: 2%;
     text-align: center;
-}  
+}
 h2{
     font-size: 1.3em;
     font-weight: bold;
@@ -68,7 +68,7 @@ h2{
     padding-left: 10px;
 }
 h3{
-    font-weight: bold; 
+    font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
@@ -180,7 +180,7 @@ th+th{
 	max-width: 1000px;
 	margin-bottom: 45px;
 }
-hr { 
+hr {
     color: #A32638;
     display: block;
     overflow: hidden;
@@ -325,7 +325,7 @@ body{
   text-align: center;
 	display: inline;
   float:left;
-  width: 207px; 
+  width: 207px;
   height: 225px;
 }
 .info-box{
@@ -482,7 +482,7 @@ body{
     padding-left: 0px;
 	margin-left:0px;
 	margin-right:0px;}
-    h5{font-size: 3em;} 
+    h5{font-size: 3em;}
 }
 
 
