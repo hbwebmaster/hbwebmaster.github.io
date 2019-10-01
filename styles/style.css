@@ -1,5 +1,5 @@
 /*Bootstrap Glyphicons*/
-@import url('//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
+/* @import url('//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'); */
 
 
 /*content*/
@@ -263,7 +263,7 @@ hr {
     transition-duration: 0.3s;
     transition-property: transform;
 }
-img{
+.box-container .about-box img{
     width: 196px;
     height: 246px;
 }

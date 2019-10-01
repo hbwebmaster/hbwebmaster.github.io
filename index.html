@@ -5,74 +5,81 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <title>Stevens Honor System</title>
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
         <link href="styles/style.css" rel="stylesheet">
         <script type="text/javascript" src="scripts/site.js"></script>
 		<script type="text/javascript" src="scripts/slides.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="scripts/jquery-3.4.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <link href="styles/header.css" rel="stylesheet">
     </head>
-    
-    
-    
-    
+
     <body>
+
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img style={ height="100px"; width="100px" }class="img-thumbnail" src="images/hblogo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class=navbar-toggler-icon></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown">About</a>
+                            <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <a class="dropdown-item" href="about.html">How It Works</a>
+                                <a class="dropdown-item" href="membership.html">Members</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-toggle="dropdown">Resources</a>
+                            <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                                <a class="dropdown-item" href="documents.html">Documents</a>
+                                <a class="dropdown-item" href="ethicscourse.html">Ethics Course</a>
+                                <a class="dropdown-item" href="https://www.stevens.edu/directory/office-registrar/buildings-and-rooms">Seating Charts</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="studentsDropdown" role="button" data-toggle="dropdown">Students</a>
+                            <div class="dropdown-menu" aria-labelledby="facultyDropdown">
+                                <a class="dropdown-item" href="studentfaq.html">Student FAQ</a>
+                                <a class="dropdown-item" href="accusedguide.html">Accused Student Guide</a>
+                                <a class="dropdown-item" href="juryguide.html">Jury Member Guide</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="facultyDropdown" role="button" data-toggle="dropdown">Faculty</a>
+                            <div class="dropdown-menu" aria-labelledby="facultyDropdown">
+                                <a class="dropdown-item" href="facultyfaq.html">Faculty FAQ</a>
+                                <a class="dropdown-item" href="profguide.html">Involvement in an Investigation</a>
+                                <a class="dropdown-item" href="facultyadjudication.html">Faculty Adjudication</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://stevens-advocate.symplicity.com/public_report/">Report a Violation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
         <!-- page content -->
         <div class="other-stuff">
+
             <div class="home-box"><!--white-->
-	              <div class='headerContainer'>
-	                  <a href="index.html" rel="home">
-	                    <img class="logo" src="images/hblogo.png"  alt="Stevens Honor System" />
-	                  </a> <h5>The Stevens Honor System</h5>
-	              </div>
-	              <br />
-					<div id='cssmenu'>
-						<ul>
-                            <li><a href='index.html'><span>Home</span></a></li>
-                            <li class='has-sub'><a href='about.html'><span>About</span></a>
-                                <ul>
-                                    <li><a href='about.html'><span>How It Works</span></a>
-                                    </li>
-                                    <li><a href='membership.html'><span>Members</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class='has-sub'><a href='documents.html'><span>Resources</span></a>
-                                    <ul>
-                                        <li><a href='documents.html'><span>Documents</span></a>
-                                        </li>
-                                        <li><a href='ethicscourse.html'><span>Ethics Course</span></a>
-                                        </li>
-                                        <li><a href='https://www.stevens.edu/directory/office-registrar/buildings-and-rooms'><span>Seating Charts</span></a>
-                                        </li>
-                                    </ul>
-                            </li>
-                            <li class='has-sub'><a href='#'><span>Students</span></a>
-                                <ul>
-                                    <li><a href='studentfaq.html'><span>Student FAQ</span></a>
-                                    </li>
-                                    <li><a href='accusedguide.html'><span>Accused Student Guide</span></a>
-                                    </li>
-                                    <li><a href='juryguide.html'><span>Jury Member Guide</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class='has-sub'><a href='#'><span>Faculty</span></a>
-                                <ul>
-                                    <li><a href='facultyfaq.html'><span>Faculty FAQ</span></a>
-                                    </li>
-                                    <li><a href='profguide.html'><span>Involvement in an Investigation</span></a>
-                                    </li>
-                                    <li><a href='facultyadjudication.html'><span>Faculty Adjudication</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class='last'><a href='https://stevens-advocate.symplicity.com/public_report/'><span>Report A Violation</span></a></li>
-                        </ul>
-					</div>
-				
 
                 <h1>Honor. <a href="internal.html" class="intA">Int</a>egrity. Respect.</h1><br />
 				<h3 class="pres">Presidential Statement on Integrity</h3>
 				<blockquote class="homeQuote"><p>Honor, integrity, and respect are at the core of Stevens’ mission to inspire, nurture and educate leaders in tomorrow’s technology-centric environment while contributing to the solution of the most challenging problems of our time. Since 1908, the Stevens Honor System has upheld these values among students, faculty, and administrators, building a strong foundation for the prestige and success that has come to define a Stevens education. For teaching and learning to thrive, for innovation to flourish, and to cultivate the exchange of knowledge and the spirit of academic inquiry, our community members must hold ourselves and each other accountable for adhering to the tenets of the Honor System. This means instilling in our community members the responsibility to choose to do what is right over what is easy, to avoid and denounce dishonest behaviors that undermine institutional values, and to commit to conduct that reinforces fairness and academic integrity. These tenets safeguard the high value and quality of research and academics at Stevens, ensuring that our students, graduates, faculty, and administrators are honest, trustworthy, and ethical collaborators, colleagues, and citizens who expand Stevens’ influence and impact and achieve honorable personal and professional success.<br /><br /> -President Nariman Favardin</p></blockquote>
-		            </div>
+		    </div>
 
             <div class="video-box"><!--red-->
                 <div class="white-box">
@@ -82,6 +89,7 @@
                     </video>
                 </div>
             </div>
+
             <div class="info-box"><!--gray-->
                 <h3>Honor System</h3>
                 <p>Formed in 1908, the Stevens Honor System and the Honor Board that governs it were developed to fulfill two main objectives: to ensure that submitted work can be trusted as a student’s own and to promote a sense of honor and integrity in preparation for the professional world.</p>
@@ -89,12 +97,13 @@
 				<p>The Honor System is only effective with the continued support of the students, faculty, and administration at Stevens. The Honor Board, the governing body of the Honor System, serves to ensure that academic integrity is upheld around campus.</p>
             </div>
 
+
             <div class="info-box-3"><!--white-->
                 <h3>Check It Out!</h3>
 				<br/>
 		<div class="ig-post">
 			<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/Boe7WIul3ow/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/Boe7WIul3ow/?utm_source=ig_embed&amp;utm_medium=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div><div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div></a> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/Boe7WIul3ow/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Getting out honor on with Attila at Chalk the Walk!</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/stevenshonor/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Stevens Honor Board</a> (@stevenshonor) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2018-10-03T19:47:48+00:00">Oct 3, 2018 at 12:47pm PDT</time></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
-                </div>           
+                </div>
 			     <br />
 			    <div class='social-container'>
 	                <div class="social-link">
@@ -102,7 +111,7 @@
 							<img src="images/facebook-logo.png" class="social-logo" alt="Honor System Facebook" />
 						</a>
 					</div>
-					
+
 					<div class="social-link">
 						<a href="https://instagram.com/stevenshonor" rel="instagram">
 							<img src="images/instagram-logo.png" class="social-logo" alt="Honor System Instagram" />
@@ -133,58 +142,58 @@
 					<div class="slide">
 						<p>"The Stevens Honor System represents a community of students who make a promise to uphold an atmosphere of fairness. It is an age-old promise that has been held for many generations and will continue to persist, distinguishing Stevens students from those from other universities." - Nicholas Csapo</p>
 					</div>
-					
+
 
 					<div class="slide">
 						<p>"Every time we write and sign the pledge it means we have promised that our work, whether correct or not, is our work. That we have respected ourselves, our peers, and the degree we strive to earn by learning the material, trying our best, and receiving the grades that we truly worked for. It reflects on not only our academic character but who we are as a person as well." - Victoria Stabile</p>
 					</div>
-					
+
 					<div class="slide">
 						<p>"The Honor System means giving every student at Stevens an equal opportunity to succeed." - Laura Murphy</p>
 					</div>
-					
+
 					<div class="slide">
 						<p>"To me, the Honor System means ensuring academic equality for all Stevens students." - Timothy Kolankowski</p>
 					</div>
-					
+
 					<div class="slide">
 						<p>"The Honor System means providing an equal chance for all students to achieve academic success and ensure that the rights of the student body are protected." - Joe Nichols</p>
 					</div>
-					
+
 					<div class="slide">
 						<p>"To uphold Stevens’ credibility and create a fair playing field for everyone." - Ava Tartaglia</p>
 					</div>
-					
+
 					<div class="slide">
 						<p>"I believe the Honor System is a testament to how important academic integrity is to Stevens students and represents the values of Stevens alumni and students." - Lauren Chen</p>
 					</div>
-					
+
 					<div class="slide">
 						<p>"To me, the Honor System is about maintaining integrity and accountability as a member of the Stevens community and academia." - Joseph King</p>
 					</div>
-					
-					
+
+
 					<div class="slide">
 						<p>"To me, the Stevens Honor System provides us, students, an opportunity to show that we are capable of upholding our merit, trust, and accountability towards our community and work ethics." - James Fong</p>
 					</div>
-					
+
 
 					<div class="slide">
 						<p>"The Honor System ensures that despite all of our differences within the Stevens community, we are all held accountable to the same standards and given an equal footing in the classroom." - Akshay Sampath</p>
 					</div>
-					
+
 					<div class="slide">
 						<p>"The constant upholding of the honor and integrity of the Stevens degree, and constantly holding each other accountable to allow for growth into the best version of ourselves." - Gabrielle McCormack</p>
 					</div>
-							
+
 					<div class="slide">
 						<p>"The Honor System, to me, is a standard where everyone has an equal opportunity to achieve success in a classroom. A place where the only way to get ahead is by pushing yourself, working hard, and thus becoming a true Stevens student. It serves as a constant reminder to go the extra mile and take pride in my hard work." - Mohkum Sethi</p>
 					</div>
-					
+
 					<div class="slide">
 						<p>"I feel as though having the Honor System ensures that there's a group of people always looking after my best interest - whether I be the reporting student that feels like there is a threat to academic integrity or the responsible student that is learning from their mistakes." - Danielle Gannon</p>
 					</div>
-					
+
 					<div class="slide">
 						<p>"The Honor Board is an upholder the principles of Stevens, integrity and honesty, to all members of the community." - Shania Taylor</p>
 					</div>
@@ -229,16 +238,18 @@
                     </div>
                     -->
 				</div>
-                <p>You Can Contact Us At honor@stevens.edu or Check Out Our Social Media! 
+                <p>You Can Contact Us At honor@stevens.edu or Check Out Our Social Media!
                 <a href="https://facebook.com/stevenshonor" rel="facebook">
                     <img src="images/facebook-logo.png" class="mini-social-logo" alt="Honor System Facebook" />
-                </a> 
+                </a>
                 <a href="https://instagram.com/stevenshonor" rel="instagram">
                     <img src="images/instagram-logo.png" class="mini-social-logo" alt="Honor System Instagram" />
                 </a></p>
 				<p class="copyWrite">&copy; Stevens Honor Board February 2019</p>
         </footer>
 
-	<div><a href="menu.html"><img id="mobile-button" class="menu-mobile-button" src="images/menu-button.png" alt="menu"/></a></div> 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
     </body>
 </html>

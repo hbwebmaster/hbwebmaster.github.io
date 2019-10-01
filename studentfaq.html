@@ -8,65 +8,76 @@
         <link href="styles/style.css" rel="stylesheet">
         <script type="text/javascript" src="scripts/site.js"></script>
         <script type="text/javascript" src="scripts/slides.js"></script>
+
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="scripts/jquery-3.4.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <link href="styles/header.css" rel="stylesheet">
     </head>
-  
+
     <body>
+
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img style={ height="100px"; width="100px" }class="img-thumbnail" src="images/hblogo.png"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                    <span class=navbar-toggler-icon></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-toggle="dropdown">About</a>
+                            <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                                <a class="dropdown-item" href="about.html">How It Works</a>
+                                <a class="dropdown-item" href="membership.html">Members</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-toggle="dropdown">Resources</a>
+                            <div class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                                <a class="dropdown-item" href="documents.html">Documents</a>
+                                <a class="dropdown-item" href="ethicscourse.html">Ethics Course</a>
+                                <a class="dropdown-item" href="https://www.stevens.edu/directory/office-registrar/buildings-and-rooms">Seating Charts</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="studentsDropdown" role="button" data-toggle="dropdown">Students</a>
+                            <div class="dropdown-menu" aria-labelledby="facultyDropdown">
+                                <a class="dropdown-item" href="studentfaq.html">Student FAQ</a>
+                                <a class="dropdown-item" href="accusedguide.html">Accused Student Guide</a>
+                                <a class="dropdown-item" href="juryguide.html">Jury Member Guide</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="facultyDropdown" role="button" data-toggle="dropdown">Faculty</a>
+                            <div class="dropdown-menu" aria-labelledby="facultyDropdown">
+                                <a class="dropdown-item" href="facultyfaq.html">Faculty FAQ</a>
+                                <a class="dropdown-item" href="profguide.html">Involvement in an Investigation</a>
+                                <a class="dropdown-item" href="facultyadjudication.html">Faculty Adjudication</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://stevens-advocate.symplicity.com/public_report/">Report a Violation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
         <!-- page content -->
         <div class="other-stuff">
-        <div class='headerContainer'>
-                      <a href="index.html" rel="home">
-                        <img class="logo" src="images/hblogo.png"  alt="Stevens Honor System" />
-                      </a> <h5>The Stevens Honor System</h5>
-                  </div>
-                  <br />
-                    <div id='cssmenu'>
-                        <ul>
-                            <li><a href='index.html'><span>Home</span></a></li>
-                            <li class='has-sub'><a href='about.html'><span>About</span></a>
-                                <ul>
-                                    <li><a href='about.html'><span>How It Works</span></a>
-                                    </li>
-                                    <li><a href='membership.html'><span>Members</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class='has-sub'><a href='documents.html'><span>Resources</span></a>
-                                    <ul>
-                                        <li><a href='documents.html'><span>Documents</span></a>
-                                        </li>
-                                        <li><a href='ethicscourse.html'><span>Ethics Course</span></a>
-                                        </li>
-                                        <li><a href='https://www.stevens.edu/directory/office-registrar/buildings-and-rooms'><span>Seating Charts</span></a>
-                                        </li>
-                                    </ul>
-                            </li>
-                            <li class='has-sub'><a href='#'><span>Students</span></a>
-                                <ul>
-                                    <li><a href='studentfaq.html'><span>Student FAQ</span></a>
-                                    </li>
-                                    <li><a href='accusedguide.html'><span>Accused Student Guide</span></a>
-                                    </li>
-                                    <li><a href='juryguide.html'><span>Jury Member Guide</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class='has-sub'><a href='#'><span>Faculty</span></a>
-                                <ul>
-                                    <li><a href='facultyfaq.html'><span>Faculty FAQ</span></a>
-                                    </li>
-                                    <li><a href='profguide.html'><span>Involvement in an Investigation</span></a>
-                                    </li>
-                                    <li><a href='facultyadjudication.html'><span>Faculty Adjudication</span></a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class='last'><a href='https://stevens-advocate.symplicity.com/public_report/'><span>Report A Violation</span></a></li>
-                        </ul>
-                    </div>
+
         <h1>Student Frequently Asked Questions</h1>
         <br />
         <div class="faq-container">
-            
+
             <h2>If I do not sign the pledge or word it correctly on an assignment, am I safe from an Honor System violation?</h2>
                 <p>The Honor System requires that undergraduate students sign the
                 pledge on all submitted work (tests, quizzes, projects, code, etc.). If
@@ -84,18 +95,18 @@
                 typed assignment, typing one’s name is an acceptable alternative to
                 a handwritten signature.</p>
             <hr>
-            
+
             <h2>Should tutors or classmates be listed as references on homework and assignments?</h2>
                 <p>Yes. When the professor allows collaboration, even working with classmates counts as aid and must be referenced on the assignment.</p>
             <hr>
-            
+
             <h2>My professor has accused me of cheating, and decided to fail
             me or give me a zero on the assignment. What should I do?</h2>
                 <p>Report the situation to the Honor Board. The incident will be
                 investigated by the Honor Board. Professors may only investigate
                 potential violations through the Faculty Adjudication process.</p>
             <hr>
-            
+
             <h2>What is a Faculty Adjudication? How does the process work?</h2>
                 <p>If a professor suspects that you may have committed an Honor
                 System violation, the professor may approach you about their
@@ -111,18 +122,18 @@
                 process. Additionally, the Honor Board may modify the agreed-upon
                 penalty if it does not fall within the established Penalty Matrix found <a href="documents/penalty-matrix.pdf">here</a>.</p>
             <hr>
-            
+
             <h2>My professor approached me regarding a faculty adjudication, but I didn’t do anything wrong or the penalty is too harsh. Can the Honor Board investigate?</h2>
                 <p>Yes. As long as you did not sign agreeing to the penalty, you can report your case to the Honor Board, at which point it is out of the professor’s hands.If you did sign the Faculty Adjudication Report
                 Form, please contact the Honor Board and the case may still be
                 reopened in certain circumstances, determined on a case-by-case
                 basis.</p>
             <hr>
-            
+
             <h2>I think I saw my classmate cheating during an exam, but I’m not sure. Should I report it, and if so, how?</h2>
                 <p>Yes, even if you’re not sure, it’s your responsibility to report anything you see. The Honor Board will investigate further and determine if there is evidence of a violation. You can report all violations on the Honor System website by clicking “Report a Violation” or by clicking “Report a Concern” on your MyStevens homepage.</p>
             <hr>
-            
+
             <h2>I am being investigated for an Honor System violation. Am I allowed to consult with my friend who is on the Honor Board?</h2>
                 <p>Any case details will be restricted to meetings with the investigative
                 committee (ICC and ICA) assigned to the case, who have no
@@ -134,7 +145,7 @@
                 (lbeningh@stevens.edu), or Director Xhijola Ruçi
                 (xruci@stevens.edu).</p>
             <hr>
-            
+
             <h2>As an undergraduate student, does the Honor System
             apply in my graduate courses?</h2>
                 <p>Yes. Undergraduates enrolled in 500-level courses are subject to the
@@ -146,7 +157,7 @@
                 that course, and therefore are subject to the Graduate Code of
                 Academic Integrity.</p>
             <hr>
-            
+
             <h2>What is an Academic Sanction? What is a Removable
             Academic Sanction, and how can it be removed?</h2>
                 <p>An Academic Sanction is a mark on a student’s transcript next to a
@@ -164,7 +175,7 @@
                 process which is typically completed within 1 (one) week of the
                 request.</p>
             <hr>
-        
+
             <h2>After an Academic Sanction has been removed, is
             there any trace that I had it?</h2>
                 <p>No. A student’s transcript and official records will not indicate an
@@ -176,7 +187,7 @@
                 the Honor Board for a student’s case history and will provide that
                 information to the requesting organization or entity.</p>
             <hr>
-            
+
             <h2>What is an Ethics Course?</h2>
                 <p>The Ethics Course is an Honor Board-designed independent study
                 course that is meant to serve as a way for a student found
@@ -188,7 +199,7 @@
                 Ethics Courses are most often used as a method to remove a
                 Removable Academic Sanction (as described above).</p>
             <hr>
-            
+
             <h2>Can I appeal the results of an Honor Board investigation after I took responsibility or was found responsible of a violation?</h2>
                 <p>Yes. You may appeal the outcome of an investigation to the
                 Committee on Academic Appeals if you believe the Honor Board did
@@ -198,7 +209,7 @@
                 appeal, please follow the instructions listed in your Case Outcome
                 Notification.</p>
             <hr>
-            
+
             <h2>What are some examples of penalties levied by the Honor Board?</h2>
                 <p>Honor Board penalties typically fall within three categories: grade
                 changes, Academic Sanctions, and suspensions or expulsions.
@@ -211,13 +222,13 @@
                 Matrix, however case-specific circumstances may cause an
                 assigned penalty to fall outside of the recommended range.</p>
             <hr>
-            
+
             <h2>Should I take responsibility for a violation if I know I’m responsible?</h2>
                 <p>Yes. The student-run Honor System relies on students holding
                 themselves and others accountable. Being honest about an incident
                 is extremely helpful to Honor Board investigators.</p>
             <hr>
-            
+
             <h2>Should I take responsibility for the violation if I know I'm not responsible?</h2>
                 <p>No. Only ever admit responsibility for a violation if you actually
                 committed the violation. The Honor System’s procedures are in
@@ -262,15 +273,15 @@
                 jurors will then enter deliberation and render a unanimous verdict
                 of Responsible or Not Responsible for the Honor System violation.</p>
             <hr>
-            
+
             <h2>If I witness a violation, how long do I have to report it?</h2>
                 <p>Students, faculty, teaching assistants, and other community
                 members can report an Honor System violation within fifteen business days of the suspected violation’s occurrence. Any reports made more than fifteen business days after an incident occurred may only be investigated by a three-fourths majority of the Honor Board at its next General Body Meeting.</p>
             <hr>
-			
+
         </div>
-        
-    </div>  
+
+    </div>
 
 
         <footer class="footerBar">
@@ -292,58 +303,58 @@
                     <div class="slide">
                         <p>"The Stevens Honor System represents a community of students who make a promise to uphold an atmosphere of fairness. It is an age-old promise that has been held for many generations and will continue to persist, distinguishing Stevens students from those from other universities." - Nicholas Csapo</p>
                     </div>
-                    
+
 
                     <div class="slide">
                         <p>"Every time we write and sign the pledge it means we have promised that our work, whether correct or not, is our work. That we have respected ourselves, our peers, and the degree we strive to earn by learning the material, trying our best, and receiving the grades that we truly worked for. It reflects on not only our academic character but who we are as a person as well." - Victoria Stabile</p>
                     </div>
-                    
+
                     <div class="slide">
                         <p>"The Honor System means giving every student at Stevens an equal opportunity to succeed." - Laura Murphy</p>
                     </div>
-                    
+
                     <div class="slide">
                         <p>"To me, the Honor System means ensuring academic equality for all Stevens students." - Timothy Kolankowski</p>
                     </div>
-                    
+
                     <div class="slide">
                         <p>"The Honor System means providing an equal chance for all students to achieve academic success and ensure that the rights of the student body are protected." - Joe Nichols</p>
                     </div>
-                    
+
                     <div class="slide">
                         <p>"To uphold Stevens’ credibility and create a fair playing field for everyone." - Ava Tartaglia</p>
                     </div>
-                    
+
                     <div class="slide">
                         <p>"I believe the Honor System is a testament to how important academic integrity is to Stevens students and represents the values of Stevens alumni and students." - Lauren Chen</p>
                     </div>
-                    
+
                     <div class="slide">
                         <p>"To me, the Honor System is about maintaining integrity and accountability as a member of the Stevens community and academia." - Joseph King</p>
                     </div>
-                    
-                    
+
+
                     <div class="slide">
                         <p>"To me, the Stevens Honor System provides us, students, an opportunity to show that we are capable of upholding our merit, trust, and accountability towards our community and work ethics." - James Fong</p>
                     </div>
-                    
+
 
                     <div class="slide">
                         <p>"The Honor System ensures that despite all of our differences within the Stevens community, we are all held accountable to the same standards and given an equal footing in the classroom." - Akshay Sampath</p>
                     </div>
-                    
+
                     <div class="slide">
                         <p>"The constant upholding of the honor and integrity of the Stevens degree, and constantly holding each other accountable to allow for growth into the best version of ourselves." - Gabrielle McCormack</p>
                     </div>
-                            
+
                     <div class="slide">
                         <p>"The Honor System, to me, is a standard where everyone has an equal opportunity to achieve success in a classroom. A place where the only way to get ahead is by pushing yourself, working hard, and thus becoming a true Stevens student. It serves as a constant reminder to go the extra mile and take pride in my hard work." - Mohkum Sethi</p>
                     </div>
-                    
+
                     <div class="slide">
                         <p>"I feel as though having the Honor System ensures that there's a group of people always looking after my best interest - whether I be the reporting student that feels like there is a threat to academic integrity or the responsible student that is learning from their mistakes." - Danielle Gannon</p>
                     </div>
-                    
+
                     <div class="slide">
                         <p>"The Honor Board is an upholder the principles of Stevens, integrity and honesty, to all members of the community." - Shania Taylor</p>
                     </div>
@@ -388,19 +399,18 @@
                     </div>
                     -->
                 </div>
-                <p>You Can Contact Us At honor@stevens.edu or Check Out Our Social Media! 
+                <p>You Can Contact Us At honor@stevens.edu or Check Out Our Social Media!
                 <a href="https://facebook.com/stevenshonor" rel="facebook">
                     <img src="images/facebook-logo.png" class="mini-social-logo" alt="Honor System Facebook" />
-                </a> 
+                </a>
                 <a href="https://instagram.com/stevenshonor" rel="instagram">
                     <img src="images/instagram-logo.png" class="mini-social-logo" alt="Honor System Instagram" />
                 </a></p>
                 <p class="copyWrite">&copy; Stevens Honor Board February 2019</p>
-        </footer> 
+        </footer>
 
-        <!-- mobile menu -->
-        
-	<div><a href="menu.html"><img id="mobile-button" class="menu-mobile-button" src="images/menu-button.png" alt="menu"/></a></div> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
     </body>
 </html>
 
