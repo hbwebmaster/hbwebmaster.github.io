@@ -196,12 +196,45 @@ hr {
     height: 200px;
     padding-right: 15px;
 }
+.form-box{
+    background-color: white;
+    display: inline-block;
+    margin: 3%;
+    width: 280px;
+    height: 300px;
+    vertical-align: middle;
+    color: #A32638;
+    position: relative;
+}
+.form-box:hover{
+    -moz-box-shadow: 0 0 30px #ccc;
+    -webkit-box-shadow: 0 0 30px #ccc;
+    box-shadow: 0 0 30px #ccc;
+}
+
+.form-box p{
+    margin: 15px;
+}
+
+.form-box span{
+    position: absolute;
+    bottom: 0;
+    right: 42%;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+}
+.form-icon{
+    width: 125px;
+    height: 150px;
+}
+
+
 .doc-box{
   background-color: white;
   display: inline-block;
   margin: 3%;
   width: 280px;
-  height: 450px;
+  height: 470px;
   vertical-align: middle;
   color: #A32638;
   position: relative;
@@ -384,9 +417,6 @@ body{
 
 .slideBox{
 	height: 125px;
-	width: 50%;
-	margin-left: 25%;
-    margin-right: 25%;
     text-align: center;
 }
 
